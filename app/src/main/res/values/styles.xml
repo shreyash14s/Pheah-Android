@@ -1,0 +1,19 @@
+<resources>
+
+	<style name="MyButtonStyle" parent="Base.Widget.AppCompat.Button">
+		<item name="colorButtonNormal">@color/material_orange_50</item>
+	</style>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/material_orange_500</item>
+		<item name="colorPrimaryDark">@color/material_orange_700</item>
+		<item name="colorAccent">@color/accent</item>
+
+		<item name="android:windowBackground">@color/material_orange_500</item>
+
+		<item name="android:buttonStyle">@style/MyButtonStyle</item>
+	</style>
+
+</resources>
